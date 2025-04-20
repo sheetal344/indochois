@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INDOCHOIS - Shop Kurtis</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f2ff;
+      color: #333;
+    }
+    header {
+      background-color: #4169e1;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #87ceeb;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #000;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .shop {
+      padding: 40px;
+      text-align: center;
+    }
+    .shop h2 {
+      color: #4169e1;
+      margin-bottom: 30px;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .product {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 220px;
+      padding: 20px;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+      font-size: 1.1em;
+      color: #4169e1;
+    }
+    .product p {
+      font-size: 0.95em;
+    }
+    .product .price {
+      font-weight: bold;
+      color: #000;
+      margin-top: 8px;
+    }
+    footer {
+      background-color: #4169e1;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>INDOCHOIS</h1>
+    <p>Shop Our Exclusive Collection of Kurtis</p>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Shop</a>
+  </nav>
+  <section class="shop">
+    <h2>Our Kurtis</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/200x250?text=Kurti+1" alt="Kurti 1">
+        <h3>Floral Printed Kurti</h3>
+        <p>Soft cotton kurti with floral designs, perfect for daily wear.</p>
+        <div class="price">?799</div>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x250?text=Kurti+2" alt="Kurti 2">
+        <h3>Elegant Blue Kurti</h3>
+        <p>Modern royal blue kurti with embroidery accents.</p>
+        <div class="price">?999</div>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200x250?text=Kurti+3" alt="Kurti 3">
+        <h3>Casual Cotton Kurti</h3>
+        <p>Breathable sky blue kurti, great for hot weather.</p>
+        <div class="price">?699</div>
+      </div>
+      <!-- Add more products here -->
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 INDOCHOIS. All rights reserved.</p>
+  </footer>
+</body>
+</html>
